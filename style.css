@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    background-color: rgb(129, 30, 30);
+    height: 50px;
+}
+.logo{
+    margin-left: 1%;
+    object-fit: cover;
+    display: inline-block;
+    top: 2%;
+}
+#flower{
+    width: 3vw;
+    border-radius: 40%;
+}
+#home{
+    padding: 10px;
+}
+#home a{
+    color: rgb(207, 90, 109);
+}
+#gal{
+    padding: 10px;
+}
+#gal a{
+    color: rgb(163, 86, 86);
+}
+.links{
+    margin-right: 2.5vw;
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.7;
+    transition: 2s;
+}
+.links:hover{
+    transition: 1s;
+    font-size: larger;
+    padding: 15px;
+}
+#linksgroup{
+    float: right;
+}
+.links a{
+    text-decoration: none;
+}
+.lnks{
+    display: inline-block;
+    float: right;
+    margin: 5px;
+    top: 2%;
+    margin-left: 1%;
+    object-fit: cover;
+}
+.lnks:hover{
+    transition: 1s;
+    font-size: larger;
+    padding: 15px;
+}
+.banner{
+    background-image: url('kayla.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 720px;
+}
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: rgb(119, 21, 54);
+    font-size: 4em;
+    font-family: 'Comfortaa', cursive;
+}
+.bannertext span{
+    color: rgb(196, 31, 64);
+    font-family: 'Comfortaa', cursive;
+}
+.bannertext p{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(170, 58, 73);
+}
+.galh{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(73, 21, 30);
+    font-family: 'Comfortaa', cursive;
+    color: rgb(236, 236, 236);
+}
+.lb{
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(129, 30, 30);
+}
+.hey{
+    position: absolute;
+    top: 12vh;
+}
+.hello{
+    width: 10vw;
+    border-radius: 300vw;
+    margin: 15px;
+}
+.ery{
+    position: absolute;
+    left: 5%;
+    color: firebrick;
+}
+#pics{
+    margin-left: 30vw;
+}
+.pcs{
+    margin: 2vw;
+    width: 15vw;
+    display: inline-block;
+    background-color: darksalmon;
+}
+#yes{
+    margin: 2.5vw;
+    width: 10vw;
+    height: 10vw;
+}
+.go{
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+}
+.res{
+    margin-right: 2.5vw;
+    display: inline-block;
+    color: rgb(216, 125, 125);
+}
